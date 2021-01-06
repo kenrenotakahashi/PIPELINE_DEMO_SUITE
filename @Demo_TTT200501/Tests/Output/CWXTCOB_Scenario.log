@@ -1,10 +1,10 @@
-00:20:39.542 INFO      TOPAZ            ***************************************
-00:20:39.543 INFO      TOPAZ            ** Execution from Topaz with options **
-00:20:39.543 INFO      TOPAZ            ***************************************
-00:20:39.543 INFO      TOPAZ            Using repository: false
-00:20:39.543 INFO      TOPAZ            ***************************************
-00:20:39.544 INFO      Engine           Test Scenario execution started
-00:20:39.544 INFO      Engine           Using context settings:
+01:03:23.617 INFO      TOPAZ            ***************************************
+01:03:23.617 INFO      TOPAZ            ** Execution from Topaz with options **
+01:03:23.618 INFO      TOPAZ            ***************************************
+01:03:23.618 INFO      TOPAZ            Using repository: false
+01:03:23.618 INFO      TOPAZ            ***************************************
+01:03:23.618 INFO      Engine           Test Scenario execution started
+01:03:23.619 INFO      Engine           Using context settings:
   Engine Version                : 20.5
   Environment id                : 3733a884-8048-4e92-a5dc-22fee13c3d54
   Environment type              : Batch
@@ -19,21 +19,21 @@
   Codepage                      : IBM-1047
   Host user Id                  : SJPKTT0
   Use Repository Server         : false
-00:20:39.545 INFO      Engine           Setting variables from context and context data extensions
-00:20:39.548 INFO      Engine             id: environmentId      value: 3733a884-8048-4e92-a5dc-22fee13c3d54
-00:20:39.552 INFO      Engine             id: environmentType    value: BATCH
-00:20:39.552 INFO      Engine             id: userId             value: SJPKTT0
-00:20:39.553 INFO      Engine             id: accountingInfo     value: 
-00:20:39.553 INFO      Unittest         Interpreting Unittest of module: CWXTCOB testscenario path: CWXTCOB_Scenario.testscenario
-00:20:40.545 INFO      Unittest         Static JCL is being used, path is: C:/Users/ketakaha/git/PIPELINE_DEMO_SUITE/@Demo_TTT200501/Tests/JCL/TTTJCL.jcl
-00:20:52.606 INFO      CWCC - Demo System Sending Job execution request to Host 
-00:20:57.973 INFO      CWCC - Demo System Job execution completed with status:
+01:03:23.619 INFO      Engine           Setting variables from context and context data extensions
+01:03:23.619 INFO      Engine             id: environmentId      value: 3733a884-8048-4e92-a5dc-22fee13c3d54
+01:03:23.620 INFO      Engine             id: environmentType    value: BATCH
+01:03:23.620 INFO      Engine             id: userId             value: SJPKTT0
+01:03:23.620 INFO      Engine             id: accountingInfo     value: 
+01:03:23.620 INFO      Unittest         Interpreting Unittest of module: CWXTCOB testscenario path: CWXTCOB_Scenario.testscenario
+01:03:24.587 INFO      Unittest         Static JCL is being used, path is: C:/Users/ketakaha/git/PIPELINE_DEMO_SUITE/@Demo_TTT200501/Tests/JCL/TTTJCL.jcl
+01:03:36.570 INFO      CWCC - Demo System Sending Job execution request to Host 
+01:03:41.933 INFO      CWCC - Demo System Job execution completed with status:
   Job status     : COMPLETED
-  Job status msg : Job SJPKTT0A(J0978911) ended with return code: 0000
+  Job status msg : Job SJPKTT0A(J0979063) ended with return code: 0000
   Job name       : SJPKTT0A
-  Job id         : J0978911
+  Job id         : J0979063
   Return code    : 0000
   Abend code     : 
   Abend reason   : 
-00:21:03.508 INFO      Unittest         Execution completed
-00:21:03.510 INFO      Engine           Test Scenario execution ended
+01:03:47.434 INFO      Unittest         Execution completed
+01:03:47.437 INFO      Engine           Test Scenario execution ended
