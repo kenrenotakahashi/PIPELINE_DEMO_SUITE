@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaUnitResult resultType="SUCCESS" containsSimulation="false">
+  <ExecutionId>4ed4f0c9-cb72-4b4e-9e1f-679b4b676904</ExecutionId>
+  <Message />
+  <AST>
+    <XaUnit xmlns="http://www.xact.dk/xatester/v/1" xmlns:data="http://www.xact.dk/xatester/data/v/1" caseInsensitiveCompare="false">
+      <Test>
+        <Unittest testscenariopath="CWXTCOB_Scenario.testscenario" moduleName="CWXTCOB" />
+      </Test>
+    </XaUnit>
+  </AST>
+  <Context>
+    <ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="3733a884-8048-4e92-a5dc-22fee13c3d54" logLevel="INFO" remote="false" useSimulations="true" uploadResult="true" timeout="600" readTimeout="30" debuggerType="CCEXPEDITER" jobInfoInterval="3" useRepository="false" userid="SJPKTT0" ccrepository="SJPKTT0.WBSAMP.XV.REPOSIT" ccsystem="SC_DEMO" cctestid="PIPELINE-DEMO" ccprogramtype="TOTALTEST - TTTRUNNR" ccreset="false" ccshow="false">
+      <platformruntime />
+      <ExtensionData>
+        <Parameter key="unittest.loadlibraries">
+          <Value>SALESSUP.ISPW.DEMJ.UT1.LOAD</Value>
+          <Value>SALESSUP.ISPW.DEMJ.SI1.LOAD</Value>
+          <Value>SALESSUP.ISPW.DEMJ.PT.LOAD</Value>
+          <Value>SALESSUP.ISPW.DEMJ.HON.LOAD</Value>
+          <Value>CEE.SCEERUN</Value>
+        </Parameter>
+        <Parameter key="unittest.staticjcl">
+          <Value>../JCL/TTTJCL.jcl</Value>
+        </Parameter>
+      </ExtensionData>
+      <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="CWXTCOB" caseInsensitiveCompare="false" path="CWXTCOB_Scenario.context">
+        <Test>
+          <Unittest testscenariopath="CWXTCOB_Scenario.testscenario" moduleName="CWXTCOB" />
+        </Test>
+      </XaUnit>
+      <ExternalResources />
+    </ExecutionContext>
+  </Context>
+  <Started>20210106-22-59-29</Started>
+  <Ended>20210106-22-59-54</Ended>
+</XaUnitResult>

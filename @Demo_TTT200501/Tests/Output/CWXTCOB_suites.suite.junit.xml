@@ -1,0 +1,7 @@
+<testsuites>
+  <testsuite name="Folder: /@Demo_TTT200501/Tests/Scenarios for Environment: CWCC - Demo System" errors="0" tests="1" failures="0" time="0" timestamp="2021-01-06T23:00:14">
+    <system-out />
+    <testcase classname="../Scenarios" name="CWXTCOB_Scenario.context" />
+    <testcase classname="../Scenarios" name="CWXTSUBC_Scenario.context" />
+  </testsuite>
+</testsuites>

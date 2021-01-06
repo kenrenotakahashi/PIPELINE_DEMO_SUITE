@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<XaSuite xmlns="http://www.xact.dk/xatester/v/1" name="Folder: /@Demo_TTT200501/Tests/Scenarios for Environment: CWCC - Demo System" environmentId="3733a884-8048-4e92-a5dc-22fee13c3d54" haltAtFailure="false">
+  <Description>Generated test suite for environment: CWCC - Demo System for folder: /@Demo_TTT200501/Tests/Scenarios</Description>
+  <XaUnits>
+    <Path>../Scenarios/CWXTCOB_Scenario.context</Path>
+    <Path>../Scenarios/CWXTSUBC_Scenario.context</Path>
+  </XaUnits>
+</XaSuite>

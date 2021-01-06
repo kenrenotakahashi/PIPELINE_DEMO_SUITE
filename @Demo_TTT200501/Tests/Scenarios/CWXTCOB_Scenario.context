@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ExecutionContext xmlns="http://www.xact.dk/xatester/v/1" environment="3733a884-8048-4e92-a5dc-22fee13c3d54" logLevel="INFO" remote="false" useSimulations="true" uploadResult="false" timeout="600" readTimeout="30" debuggerType="CCEXPEDITER" jobInfoInterval="3" useRepository="false" ccrepository="SJPKTT0.WBSAMP.XV.REPOSIT" ccsystem="SC_DEMO" cctestid="PIPELINE-DEMO" ccprogramtype="TOTALTEST - TTTRUNNR" ccreset="false" ccshow="false">
+  <ExtensionData>
+    <Parameter key="unittest.loadlibraries">
+      <Value>SALESSUP.ISPW.DEMJ.UT1.LOAD</Value>
+      <Value>SALESSUP.ISPW.DEMJ.SI1.LOAD</Value>
+      <Value>SALESSUP.ISPW.DEMJ.PT.LOAD</Value>
+      <Value>SALESSUP.ISPW.DEMJ.HON.LOAD</Value>
+      <Value>CEE.SCEERUN</Value>
+    </Parameter>
+    <Parameter key="unittest.staticjcl">
+      <Value>../JCL/TTTJCL.jcl</Value>
+    </Parameter>
+  </ExtensionData>
+  <XaUnit xmlns:data="http://www.xact.dk/xatester/data/v/1" componentNameUnderTest="CWXTCOB" caseInsensitiveCompare="false" path="CWXTCOB_Scenario.testscenario">
+    <Test>
+      <Unittest testscenariopath="CWXTCOB_Scenario.testscenario" moduleName="CWXTCOB" />
+    </Test>
+  </XaUnit>
+</ExecutionContext>

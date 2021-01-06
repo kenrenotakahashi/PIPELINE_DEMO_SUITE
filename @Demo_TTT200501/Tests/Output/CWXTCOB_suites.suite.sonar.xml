@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testExecutions version="1">
+  <file path="C:\Users\ketakaha\Compuware\Workbench\workspace_20_05_01\@Demo_TTT200501\Tests\Output\CWXTCOB_Scenario.result">
+    <testCase name="CWXTCOB_Scenario" duration="24818" />
+  </file>
+  <file path="C:\Users\ketakaha\Compuware\Workbench\workspace_20_05_01\@Demo_TTT200501\Tests\Output\CWXTSUBC_Scenario.result">
+    <testCase name="CWXTSUBC_Scenario" duration="20175" />
+  </file>
+</testExecutions>

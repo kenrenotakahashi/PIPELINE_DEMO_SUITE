@@ -1,0 +1,34 @@
+22:59:54.613 INFO      Engine           Test Scenario execution started
+22:59:54.621 INFO      Engine           Using context settings:
+  Engine Version                : 20.5
+  Environment id                : 3733a884-8048-4e92-a5dc-22fee13c3d54
+  Environment type              : Batch
+  Operating system              : ZOS
+  zOS agent version             : NEWEST
+  Server address                : 192.168.96.130
+  Server port                   : 16196
+  Job execution timeout seconds : 600
+  Job info interval seconds     : 3
+  Socket read timeout           : 30
+  Encoding                      : ISO8859-1
+  Codepage                      : IBM-1047
+  Host user Id                  : SJPKTT0
+  Use Repository Server         : false
+22:59:54.624 INFO      Engine           Setting variables from context and context data extensions
+22:59:54.627 INFO      Engine             id: environmentId      value: 3733a884-8048-4e92-a5dc-22fee13c3d54
+22:59:54.629 INFO      Engine             id: environmentType    value: BATCH
+22:59:54.631 INFO      Engine             id: userId             value: SJPKTT0
+22:59:54.633 INFO      Engine             id: accountingInfo     value: 
+22:59:54.635 INFO      Unittest         Interpreting Unittest of module: CWXTSUBC testscenario path: CWXTSUBC_Scenario.testscenario
+22:59:55.613 INFO      Unittest         Static JCL is being used, path is: C:/Users/ketakaha/Compuware/Workbench/workspace_20_05_01/@Demo_TTT200501/Tests/JCL/TTTJCL.jcl
+23:00:06.245 INFO      CWCC - Demo System Sending Job execution request to Host 
+23:00:11.603 INFO      CWCC - Demo System Job execution completed with status:
+  Job status     : COMPLETED
+  Job status msg : Job SJPKTT0A(J0978831) ended with return code: 0000
+  Job name       : SJPKTT0A
+  Job id         : J0978831
+  Return code    : 0000
+  Abend code     : 
+  Abend reason   : 
+23:00:14.803 INFO      Unittest         Execution completed
+23:00:14.807 INFO      Engine           Test Scenario execution ended
